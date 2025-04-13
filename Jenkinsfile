@@ -10,8 +10,8 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo '🛠️ Building the application...'
-                sh 'ls -la'  // Replace this with your actual build command
+                echo '🛠️  Building the application...'
+                sh 'ls -la' // Replace this with your actual build command
             }
         }
     }
